@@ -1,0 +1,81 @@
+/* 
+    Document   : style
+    Created on : Apr 25, 2013, 12:11:49 AM
+    Author     : Jasim
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body {
+    background:url("http://pcdn.paravel.netdna-cdn.com/wp-content/uploads/2011/07/header_texture.jpg");
+    color:white;
+    
+}
+root { 
+    display: block;
+}
+h1{
+    text-align: center;
+}
+
+.tabs{
+    width:80%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.tabs ul{
+    padding:0;
+    margin:1em ;
+    list-style-type: disc;
+}
+.tabs ul li{
+    display:inline-block;
+    width:33%;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.tabs a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:whitesmoke;
+}
+.tabs a:hover{
+    color:#446;
+    transition: all 500ms ease;
+}
+.form {
+    width: 20%;
+    height:400px;
+    margin:0 auto;
+    padding: 5px 5px;
+}
+.form input{
+    padding: 5px 5px 5px 5px;
+    margin:15px 5px;
+}
+.form .txt{
+    width:65%;
+}
+
+.table{
+    width:50%;
+    margin:0 auto;
+/*    border: 1px solid;*/
+}
+.info-table {
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    border-collapse: separate;
+    border-spacing: 2em;
+    width:100%;
+}
+.info-table td{
+/*    border:1px solid;*/
+}
+
+.content{
+    width:80%;
+    margin:10px auto;
+}
